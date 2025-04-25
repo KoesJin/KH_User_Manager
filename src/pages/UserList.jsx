@@ -14,6 +14,7 @@ const PageLayout = styled.div`
     padding: 20px;
     background-color: ${(props) => props.theme.background};
     transition: all 0.3s ease;
+    min-height: 100vh;
 `;
 
 const Container = styled.div`
